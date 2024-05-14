@@ -7,8 +7,8 @@ CREATE TABLE Netflix_Movies (
     date_added DATE,
     release_year INT,
     rating VARCHAR(50),
-    duration VARCHAR(50),
-    listed_in VARCHAR(255),
+    "duration(m)" VARCHAR(50),
+    genre VARCHAR(255),
     description VARCHAR(5000)
 );
 
